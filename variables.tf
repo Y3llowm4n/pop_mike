@@ -1,5 +1,5 @@
 variable "resource_group_location" {
-    default = "germanywestcentral"
+    default = "West Europe"
     description = "Location of the resource group"
 }
 
@@ -8,8 +8,8 @@ variable "resource_group_name_prefix" {
     description = "Test of the group assigned with a random ID"
 }
 
-variable "Default_Location" {
-    default = "Germany West Central"
+variable "default_Location" {
+    default = "West Europe"
     description = "Default location of resources"
 }
 
